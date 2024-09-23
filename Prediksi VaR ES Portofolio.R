@@ -73,7 +73,6 @@ p <- ggplot(df, aes(x = return_1)) +
   theme_minimal() +
   theme(panel.grid.major = element_line(color = "gray", size = 0.2))
 
-p
 
 # Membuat histogram dengan ggplot2
 df_data <- data.frame(return_1 = return_1)
